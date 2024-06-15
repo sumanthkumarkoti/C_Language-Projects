@@ -15,8 +15,10 @@ int main()
     scanf("%d",&i);
 
     y = i / 365;
-
-
+    m = (i % 365) / 30;
+    w = ((i % 365) % 30) / 7;
+    d = (((i % 365) % 30)) % 7;
+    
     printf("\n");
     printf(" Years: %d",y);
     printf("\n");
