@@ -27,7 +27,7 @@ main()
     if (b= 10)
     {
         e= (t1 * a) / 100;
-        d= (a + e) / 5;
+        d= (a + e) / c;
 
         printf("\n");
         printf(" Each one have to Pay Rs. %.2f",d);
@@ -37,7 +37,7 @@ main()
     else if (b = 5)
     {
         e= (t2 * a) / 100;
-        d= (a + e) / 5;
+        d= (a + e) / c;
 
         printf("\n");
         printf(" Each one have to Pay Rs. %.2f",d);
