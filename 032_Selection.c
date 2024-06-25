@@ -30,6 +30,7 @@ main()
        case 2:bill = qty * 50 ; break ;
        case 3:bill = qty * 20 ; break ;
        case 4:bill = qty * 25 ; break ;
+       case 5: break;
        default : printf("\a\n\t\t\t\t\t\t INVALID INPUT ");
     }
 
